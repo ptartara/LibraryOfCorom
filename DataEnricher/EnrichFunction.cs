@@ -42,19 +42,19 @@ namespace DataEnricher
         internal const bool USE_HANDWRITING_OCR = false;
 
         // Azure Blob Storage used to store extracted page images
-        internal const string IMAGE_AZURE_STORAGE_ACCOUNT_NAME = "";
-        internal const string IMAGE_BLOB_STORAGE_ACCOUNT_KEY = "";
+        internal const string IMAGE_AZURE_STORAGE_ACCOUNT_NAME = "delblobpdf";
+        internal const string IMAGE_BLOB_STORAGE_ACCOUNT_KEY = "w5P25Qx8+DjPlstTmlKyaKeA1TEY+eyNHU0kNsldQDU+xnJGKg4Sb3N0Aab+x+i7zVLMGi5nXParS4cB5LyAxg==";
 
         // Cognitive Services Vision API used to process images
-        internal const string VISION_API_KEY = "";
+        internal const string VISION_API_KEY = "f02adf4697a945408beacafff501077f";
 
         // AzureML Webservice used for Entity Extraction
-        internal const string AZURE_ML_WEBSERVICE_URL = "";
-        internal const string AZURE_ML_WEBSERVICE_API_KEY = "";
+        internal const string AZURE_ML_WEBSERVICE_URL = "https://ussouthcentral.services.azureml.net/workspaces/79c1929e8f0847c08686e7bcd1cd36c0/services/709dc3b2bf534196ac7fbf94c499fdf2/execute?api-version=2.0&details=true";
+        internal const string AZURE_ML_WEBSERVICE_API_KEY = "if3AYDz7uFkbqGBNQROQ4sdw6BUJTZdXFrUHmFgzsjAMcgEI63DntjrR0IyuXTvK4O2j1mRyoVOnaShkso2OeQ==";
 
         // Azure Search service used to index documents
-        internal const string AZURE_SEARCH_SERVICE_NAME = "";
-        internal const string AZURE_SEARCH_ADMIN_KEY = "";
+        internal const string AZURE_SEARCH_SERVICE_NAME = "delsearchsrv";
+        internal const string AZURE_SEARCH_ADMIN_KEY = "E3458B246081A0D89374FC03ADE14D62";
 
         /*************************************************************************/
 
